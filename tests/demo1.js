@@ -1,0 +1,11 @@
+"use strict";
+let message1 = "Hii playwright";
+console.log(message1);
+let age1 = 25;
+console.log(age1);
+let verify = false;
+console.log(verify);
+let Array1 = [5, 6, 7];
+console.log(Array1);
+let book = "William shakespeare";
+book = 143;
