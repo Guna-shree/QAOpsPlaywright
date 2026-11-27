@@ -18,7 +18,7 @@ test("Client App",async({page})=>{
     await dashboardPage.addToCart(productName);
 
     const mycartpage=poManager.getCheckoutPage();
-    await mycartpage.myCart();
+    await mycartpage.myCart(productName);
 
     const payments=poManager.getPaymentsPage();
     await payments.personalInformation("86438675","Gunashree","rahulshettyacademy");

@@ -179,7 +179,7 @@ for(let i=0;i<productCount;i++)
     }
 const orderIdDetails=await page.locator(".col-text").textContent();
 expect(orderId.includes(orderIdDetails)).toBeTruthy();
-await page.pause();
+
 
 })
 

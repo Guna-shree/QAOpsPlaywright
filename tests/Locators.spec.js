@@ -40,6 +40,7 @@ test("End-to-End testing using special locators",async({page})=>{
     await page.locator('.card-body b').first().waitFor();
     await page.locator(".card-body").filter({hasText:"iphone 13 pro"}).getByRole("button",{name:"Add to Cart"}).click();
     await page.getByRole("listitem").getByRole("button",{name:"Cart"}).click();
+    //await page.pause();
     await page.locator("div li").first().waitFor();
     await expect(page.getByText("iphone 13 pro")).toBeVisible();
     await page.getByRole("button",{name:"Checkout"}).click();

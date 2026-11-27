@@ -23,7 +23,7 @@ test("Test case 1",async()=>{
     await page.goto("https://rahulshettyacademy.com/client");
     const products=page.locator('.card-body');
     const CardTitles=page.locator('.card-body b');
-    //await CardTitles.first().waitFor();
+    await CardTitles.first().waitFor();
     const allTitles=await CardTitles.allTextContents();
     
     

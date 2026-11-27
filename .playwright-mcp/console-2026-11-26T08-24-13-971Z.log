@@ -1,0 +1,20 @@
+[     163ms] [WARNING] [ngx-spinner]: Property "type" is missed. Please, provide animation type to <ngx-spinner> component
+        and ensure css is added to angular.json file @ https://rahulshettyacademy.com/client/435.11ebda32f57c8d490fa0.js:1
+[     167ms] [WARNING] [ngx-spinner]: Property "type" is missed. Please, provide animation type to <ngx-spinner> component
+        and ensure css is added to angular.json file @ https://rahulshettyacademy.com/client/435.11ebda32f57c8d490fa0.js:1
+[     816ms] [LOG] 0 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[     912ms] [LOG] 1 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[     973ms] [LOG] 2 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[    9321ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://rahulshettyacademy.com/client/#/auth/login:1
+[   17656ms] [WARNING] [ngx-spinner]: Property "type" is missed. Please, provide animation type to <ngx-spinner> component
+        and ensure css is added to angular.json file @ https://rahulshettyacademy.com/client/435.11ebda32f57c8d490fa0.js:1
+[   17658ms] [WARNING] [ngx-spinner]: Property "type" is missed. Please, provide animation type to <ngx-spinner> component
+        and ensure css is added to angular.json file @ https://rahulshettyacademy.com/client/435.11ebda32f57c8d490fa0.js:1
+[   17684ms] [WARNING] [ngx-spinner]: Property "type" is missed. Please, provide animation type to <ngx-spinner> component
+        and ensure css is added to angular.json file @ https://rahulshettyacademy.com/client/435.11ebda32f57c8d490fa0.js:1
+[   18290ms] [LOG] 0 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[   18364ms] [LOG] 1 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[   18455ms] [LOG] 2 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[   65214ms] [LOG] 0 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[   65290ms] [LOG] 1 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1
+[   65399ms] [LOG] 2 @ https://rahulshettyacademy.com/client/135.95eb921e6931c00ece57.js:1

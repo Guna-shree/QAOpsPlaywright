@@ -29,7 +29,7 @@ test("Screenshots handling",async({page})=>{
     await expect(page.locator("#displayed-text")).toBeHidden();
     
 })
-test.only(" Visual testing",async({page})=>{
+test.skip(" Visual testing",async({page})=>{
     await page.goto("https://www.rahulshettyacademy.com");
     expect(await page.screenshot()).toMatchSnapshot("landing.png")
     })

@@ -17,9 +17,9 @@ test("Booking flow with Event creation ",async({page})=>{
     await page.getByPlaceholder("Describe the event…").fill("Ready to power through your final stretch before the weekend? Grab your favorite mug and join us for Coffee Friday! We’ll have a full coffee bar, a cozy corner to chat, and a great group of people to help you transition smoothly from work mode to weekend mode.");
     await page.locator("#city").fill("Chennai");
     await page.locator("#venue").fill("YMCA Nandanam, Nungambakkam, Chennai");
-    await page.locator("input[id='event-date-&-time']").fill("2026-11-01T18:30");
+    await page.locator("input[id='event-date-&-time']").fill("2027-11-01T18:30");
     await page.getByLabel("price ($)").fill("500");
-    await page.locator("#total-seats").fill("50");
+    await page.locator("#total-seats").fill("5000");
     await page.getByRole("button",{name:"+ Add Event"}).click();
     await expect(page.getByText("Event created!")).toBeVisible();
 
@@ -76,7 +76,7 @@ test("Refund Eligibility check",async({page})=>{
     await expect(page.getByRole("link",{name:"Browse Events"}).first()).toBeVisible();
 //step 2
     await page.locator("#nav-events").click();
-    await page.locator("#event-card").first().getByRole("link",{name:"Book Now"}).click();
+    await page.locator("#event-card").nth(2).getByRole("link",{name:"Book Now"}).click();
     await page.getByLabel("Full name").fill("Saasho");
     await page.getByLabel("Email").fill("saashoi007@gmail.com");
     await page.getByLabel("Phone Number").fill("9744692832");

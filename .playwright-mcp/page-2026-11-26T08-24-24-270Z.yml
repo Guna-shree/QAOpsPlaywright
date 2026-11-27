@@ -1,0 +1,69 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e466]:
+    - banner [ref=f13e467]:
+      - generic [ref=f13e470]:
+        - text: 
+        - generic [ref=f13e471]:
+          - link "" [ref=f13e472] [cursor=pointer]:
+            - /url: "#"
+          - link "" [ref=f13e474] [cursor=pointer]:
+            - /url: "#"
+          - link "" [ref=f13e476] [cursor=pointer]:
+            - /url: "#"
+          - link "" [ref=f13e478] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f13e480]:
+      - generic [ref=f13e481]:
+        - heading "We Make Your Shopping Simple" [level=3]
+        - heading [level=1] [ref=f13e482]:
+          - text: Practice Website for
+          - emphasis [ref=f13e483]: Rahul Shetty Academy
+          - text: Students
+        - link "Register" [ref=f13e484] [cursor=pointer]:
+          - /url: "#/auth/register"
+      - generic [ref=f13e486]:
+        - paragraph [ref=f13e487]:
+          - generic [ref=f13e488]: Register to sign in with your personal account
+        - generic [ref=f13e489]:
+          - heading "Log in" [level=1] [ref=f13e490]
+          - generic [ref=f13e491]:
+            - generic [ref=f13e492]:
+              - generic [ref=f13e493]: Email
+              - textbox "email@example.com" [ref=f13e494]
+            - generic [ref=f13e495]:
+              - generic [ref=f13e496]: Password
+              - textbox "enter your passsword" [ref=f13e497]
+            - button "Login" [ref=f13e498] [cursor=pointer]
+          - link "Forgot password?" [ref=f13e499] [cursor=pointer]:
+            - /url: "#/auth/password-new"
+          - paragraph [ref=f13e500] [cursor=pointer]: Don't have an account? Register here
+    - generic [ref=f13e501]:
+      - heading "Why People Choose Us?" [level=1] [ref=f13e504]
+      - generic [ref=f13e505]:
+        - generic [ref=f13e506]:
+          - generic [ref=f13e507]: 
+          - generic [ref=f13e509]:
+            - heading "3546540" [level=1]
+            - paragraph [ref=f13e510]: Successfull Orders
+        - generic [ref=f13e511]:
+          - generic [ref=f13e512]: 
+          - generic [ref=f13e514]:
+            - heading "37653" [level=1]
+            - paragraph [ref=f13e515]: Customers
+        - generic [ref=f13e516]:
+          - generic [ref=f13e517]: 
+          - generic [ref=f13e519]:
+            - heading "3243" [level=1]
+            - paragraph [ref=f13e520]: Sellers
+      - generic [ref=f13e521]:
+        - generic [ref=f13e522]:
+          - generic [ref=f13e523]: 
+          - generic [ref=f13e525]:
+            - heading "4500+" [level=1]
+            - paragraph [ref=f13e526]: Daily Orders
+        - generic [ref=f13e527]:
+          - generic [ref=f13e528]: 
+          - generic [ref=f13e530]:
+            - heading "500+" [level=1]
+            - paragraph [ref=f13e531]: Daily New Customer Joining
+  - alert "Logout Successfully" [ref=f13e533]
